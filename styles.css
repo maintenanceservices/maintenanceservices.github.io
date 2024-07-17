@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #3d3d3d; /* Deep vintage color for header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #333; /* Dark gray color */
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #dedede; /* Vintage color for sections */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.who-we-are-content {
+    display: flex;
+    align-items: center;
+}
+
+.who-we-are-content img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.who-we-are-text {
+    /* width: 50%; */
+    height: 300px;
+    padding: 20px;
+    background: #808080; /* Vintage color for text background */
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.services {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card {
+    min-width: 150px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card:nth-child(1) { background-color: #a0522d; /* Deep vintage color */ }
+.card:nth-child(2) { background-color: #696969; /* Deep vintage color */ }
+.card:nth-child(3) { background-color: #556b2f; /* Deep vintage color */ }
+.card:nth-child(4) { background-color: #8b4513; /* Deep vintage color */ }
+.card:nth-child(5) { background-color: #2f4f4f; /* Deep vintage color */ }
+.card:nth-child(6) { background-color: #4682b4; /* Deep vintage color */ }
+.card:nth-child(7) { background-color: #556b2f; /* Deep vintage color */ }
+.card:nth-child(8) { background-color: #696969; /* Deep vintage color */ }
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #3d3d3d; /* Deep vintage color for footer */
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
